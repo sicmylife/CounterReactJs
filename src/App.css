@@ -32,7 +32,7 @@ html,body {
 
 .contenedor-principal {
     height: 550px;
-    min-height: 600px;
+    min-height: 1000px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;

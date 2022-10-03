@@ -1,6 +1,5 @@
 
 import './App.css';
-import freecodecamplogo from './images/freecodecamp-logo.png'
 import Boton from './componentes/Boton'
 import Contador from './componentes/contador'
 
@@ -24,12 +23,7 @@ function App() {
 
   return (
     <div className="App">
-    <div className='freecodecamp-logo-contenedor'>
-      <img 
-      className='freecodecamp-logo'
-      src={freecodecamplogo}
-       alt="logo de freecodecamp" />
-    </div>
+  
 
           <div className="contenedor-principal">
               <Contador numClics={numClics} />
